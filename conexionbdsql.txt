@@ -11,3 +11,38 @@
     "DefaultConnection": "Server=LAPTOP-VDQQ65HP\\SQLEXPRESS01;Database=db_empresa;Trusted_Connection=True;TrustServerCertificate=True;"
   }
 }
+
+program.cs__________________________
+
+
+
+using Microsoft.EntityFrameworkCore;
+using TodoApi.Models;
+
+var builder = WebApplication.CreateBuilder(args);
+
+
+
+builder.Services.AddControllers();
+ 
+builder.Services.AddDbContext<Conexiones>(opt =>
+opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

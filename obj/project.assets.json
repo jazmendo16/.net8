@@ -8839,11 +8839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yeymi\\OneDrive\\Escritorio\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\yeymi\\OneDrive\\Escritorio\\clone\\TodoApi222\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\yeymi\\OneDrive\\Escritorio\\TodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Users\\yeymi\\OneDrive\\Escritorio\\clone\\TodoApi222\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\yeymi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yeymi\\OneDrive\\Escritorio\\TodoApi\\obj\\",
+      "outputPath": "C:\\Users\\yeymi\\OneDrive\\Escritorio\\clone\\TodoApi222\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yeymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
